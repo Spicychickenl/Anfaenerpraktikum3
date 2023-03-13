@@ -18,4 +18,7 @@ A3_bl = np.array(removeNa(file['3bl']))
 A3_br = np.array(removeNa(file['3br']))
 A3_gl = np.array(removeNa(file['3gl']))
 A3_gr = np.array(removeNa(file['3gr']))
-
+ls_k = np.array(removeNa(file['lsak']))-10.0
+ls_l = np.array(removeNa(file['lsal']))-10.0
+ls_left = np.array(removeNa(file['lsbl']))
+ls_right = np.array(removeNa(file['lsbr']))
